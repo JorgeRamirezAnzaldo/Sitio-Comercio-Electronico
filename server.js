@@ -11,11 +11,11 @@ const app = express();
 //Define PORT
 const PORT = process.env.PORT || 3001;
 
-//Make the app use the routes
-app.use(routes);
-
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+//Make the app use the routes
+app.use(routes);
 
 //Sync sequelize models to the database, then turn on the server
 sequelize.sync().then(() => {
