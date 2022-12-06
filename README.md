@@ -1,2 +1,1 @@
-# Sitio-Comercio-Electronico
-Repositorio para sitio de comercio electrónico
+# Código de inicio para Back end de e-commerce
