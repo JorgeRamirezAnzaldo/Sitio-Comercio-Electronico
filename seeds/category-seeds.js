@@ -1,5 +1,7 @@
+//Import Category model from the models
 const { Category } = require('../models');
 
+//Define entries data for Category table
 const categoryData = [
   {
     category_name: 'Shirts',
@@ -18,6 +20,6 @@ const categoryData = [
   },
 ];
 
-const seedCategories = () => Category.bulkCreate(categoryData);
+const seedCategories = () => Category.bulkCreate(categoryData); //Create entries in Category table
 
-module.exports = seedCategories;
+module.exports = seedCategories; //Export the function to create the entries for Category table

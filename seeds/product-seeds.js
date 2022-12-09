@@ -1,5 +1,7 @@
+//Import Product model from models
 const { Product } = require('../models');
 
+//Define entries data for Product table
 const productData = [
   {
     product_name: 'Plain T-Shirt',
@@ -33,6 +35,6 @@ const productData = [
   },
 ];
 
-const seedProducts = () => Product.bulkCreate(productData);
+const seedProducts = () => Product.bulkCreate(productData); //Create entries for Product table
 
-module.exports = seedProducts;
+module.exports = seedProducts; //Export function to create entries for Product table
