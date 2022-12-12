@@ -115,4 +115,4 @@
 
 ## Enlace a video de funcionalidad de la aplicación
 
-* [Link a video de aplicación]()
+* [Link a video de aplicación](https://drive.google.com/file/d/1mMd8aSY-kS6fZmLLEbZA28RsWp0TAyQp/view)
